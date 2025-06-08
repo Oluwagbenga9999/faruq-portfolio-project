@@ -178,7 +178,7 @@ main {
 
     .grid_works {
       display: grid;
-      grid-template-columns: repeat(auto-fit, mimax(250px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: var(--section-gap);
       height: 100%;
 
