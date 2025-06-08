@@ -213,6 +213,7 @@ main {
       padding: 0.5rem 2rem;
       border-radius: var(--btn-border);
       font-size: var(--text-sm);
+      color: var(--base-col);
     }
   }
 
