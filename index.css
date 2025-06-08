@@ -467,3 +467,24 @@ main .hero {
 .showbar {
   transform: translateX(0vw);
 }
+
+/* Ensure body doesn't scroll when menu is open */
+body.menu-open {
+  overflow: hidden;
+}
+
+/* Make sure close button is visible */
+.close_slider {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.nav_links.showbar .close_slider {
+  display: block;
+}
