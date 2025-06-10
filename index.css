@@ -135,12 +135,12 @@ main {
   }
 
   .active {
-    width: 15px;
+    width: 20px;
     height: 20px;
     border-radius: 50%;
     background: var(--green-acent);
     border: 1px solid black;
-    box-shadow: 0 0 15px var(--green-acent);
+    box-shadow: 0 0 25px var(--green-acent);
   }
 
   .hire_me {
@@ -477,8 +477,8 @@ body.menu-open {
 .close_slider {
   display: none;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 15px;
+  right: 15px;
   z-index: 1000;
   cursor: pointer;
   color: white;
