@@ -178,7 +178,7 @@ main {
 
     .grid_works {
       display: grid;
-      grid-template-columns: repeat(auto-fit, mimax(250px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: var(--section-gap);
       height: 100%;
 
@@ -379,7 +379,7 @@ main .hero {
 /* media-query-responsiveness */
 @media only screen and (max-width: 700px) {
   body {
-    font-size: ;
+  
   }
   main {
     margin-inline: 1.2rem;
@@ -466,4 +466,25 @@ main .hero {
 /* dynamic-styles */
 .showbar {
   transform: translateX(0vw);
+}
+
+/* Ensure body doesn't scroll when menu is open */
+body.menu-open {
+  overflow: hidden;
+}
+
+/* Make sure close button is visible */
+.close_slider {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.nav_links.showbar .close_slider {
+  display: block;
 }
