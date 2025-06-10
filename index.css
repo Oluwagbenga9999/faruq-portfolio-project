@@ -428,7 +428,7 @@ main .hero {
       }
   }
 
-  .close_slider {
+ /* .close_slider {
     cursor: pointer;
     display: block;
     position: absolute;
@@ -441,7 +441,7 @@ main .hero {
       font-size: 1.6rem;
     }
 
-}
+} */
 
 
   }
@@ -477,13 +477,13 @@ body.menu-open {
 .close_slider {
   display: none;
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 2rem;
+  left: 2rem;
   z-index: 1000;
   cursor: pointer;
   color: white;
   font-size: 1.5rem;
-}
+} 
 
 .nav_links.showbar .close_slider {
   display: block;
